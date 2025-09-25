@@ -25,7 +25,7 @@ export default function Header({ searchTerm, setSearchTerm, onBackToHome, onNavi
               </button>
             )}
             <div className="flex items-center space-x-2">
-              <ChefHat className="w-8 h-8 text-orange-600" />
+              <img src="../chef-logo3.png" className="w-12 h-12" />
               <h1 className="text-2xl font-bold text-gray-900">FlavorCraft</h1>
             </div>
           </div>

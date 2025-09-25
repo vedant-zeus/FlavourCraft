@@ -9,26 +9,6 @@ export default function About() {
     { icon: Globe, label: 'Countries', value: '25' }
   ];
 
-  const team = [
-    {
-      name: 'Sarah Johnson',
-      role: 'Head Chef & Founder',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'With 15 years of culinary experience, Sarah brings passion and expertise to every recipe.'
-    },
-    {
-      name: 'Marcus Chen',
-      role: 'Recipe Developer',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Marcus specializes in fusion cuisine and creates innovative recipes that blend cultures.'
-    },
-    {
-      name: 'Elena Rodriguez',
-      role: 'Nutrition Expert',
-      image: 'https://images.pexels.com/photos/3785081/pexels-photo-3785081.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Elena ensures all our recipes are not only delicious but also nutritionally balanced.'
-    }
-  ];
 
   return (
     <main className="py-16">
